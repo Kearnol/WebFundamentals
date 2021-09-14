@@ -1,0 +1,43 @@
+#flag{
+    width: 700px;
+    height: 500px;
+    background-color: #fff;
+    border: black solid 2px;
+    margin-left: 40px;
+    position: relative;
+}
+
+div.red{
+    height: 100px;
+    background: #e1392d;
+    margin-bottom: 30px;
+}
+div.blue{
+    height: 100px;
+    background: #000c8a;
+}
+div.green{
+    height: 100px;
+    background: #007847;
+}
+
+#tri-yellow{
+    width:0px;
+    height:0px;
+    border-top: 100px solid transparent;
+    border-left: 75px solid #ffb915;
+    border-bottom: 100px solid transparent;
+    display: inline-block;
+    margin-right: 0;
+    /* position: absolute; */
+
+}
+#tri-black{
+    width:0;
+    height:0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid #000;
+    border-bottom: 50px solid transparent;
+    display: inline-block;
+    /* float: left; */
+}
