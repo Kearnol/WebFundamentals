@@ -1,0 +1,28 @@
+/* *{
+    margin: 
+} */
+
+h1 {
+    background-color: black;
+    color: #fff;
+}
+
+h1 span{
+    color: rgb(15, 219, 233);
+}
+
+h2{
+    background-color: blueviolet;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+}
+
+h3 {
+    background-color:rgb(134, 162, 215);
+    text-align: right;
+    color: #000;
+    text-decoration: underline;
+    font-weight: normal;
+}
