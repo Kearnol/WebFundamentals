@@ -1,5 +1,5 @@
 img {
-    height:200px
+    height:200px;
 }
 
 body{
@@ -32,6 +32,8 @@ p {
 #row1{
     background-color:gold;
     justify-content: space-around;
+    /* align-content: end; */
+    align-items:center;
 }
 
 #row2{
