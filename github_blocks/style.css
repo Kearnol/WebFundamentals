@@ -1,0 +1,45 @@
+img {
+    height:200px
+}
+
+body{
+    background: #000;
+    color: rgb(155, 152, 152);
+}
+
+a{
+    color:orange;
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+    /* border: solid; */
+}
+
+p {
+    text-align: center;
+}
+
+#row1, #row2, #row3{
+    margin:auto;
+    width:80%;
+    padding: 15px 20px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#row1{
+    background-color:gold;
+    justify-content: space-around;
+}
+
+#row2{
+    background-color:gray;
+    justify-content: space-evenly;
+}
+
+#row3{
+    background-color:gold;
+    justify-content: space-between;
+}
