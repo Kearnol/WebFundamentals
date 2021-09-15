@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color:rgb(255, 255, 255);
+    margin:0;
+}
+
+.row{
+height: 100px;
+display: flex;
+justify-content: space-between;
+margin: -10px;
+}
+
+h1{
+    padding-left: 10px;
+}
+.col, .col-2, .col-3 {
+    padding-left: 15px;
+    margin: 10px;
+    display:flex;
+    align-items: center;
+    color: black;
+}
+
+.col{
+flex: 1;
+background:rgb(238, 50, 50);
+}
+
+.col-2{
+flex: 2;
+background:rgb(255, 153, 0);
+}
+
+.col-3{
+flex: 3;
+background:rgb(255, 247, 0);
+}
+
