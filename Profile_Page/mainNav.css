@@ -1,7 +1,3 @@
-body {
-    background: #333;
-}
-
 #nav-background{
     background-color:#000;
     margin-bottom: 30px;
@@ -66,9 +62,6 @@ ul.nav-links li a.active {
 
 .nav-links {
     align-items: center;
-}
-
-#navlinks{
     width: auto;
 }
 
