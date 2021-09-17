@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+#mainNav{
+    width: 70%;
+    height: 80px;
+    margin: auto;
+    background: rgb(181, 181, 181);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#mainNav input {
+    border: black 2px solid;
+    font-family: "Arial", sans-serif;
+    width: 250px;
+    height: 25px;
+}
+
+button{
+    color: black;
+    border: black solid 3px;
+    box-shadow: black 3px 3px
+}
+
+.loginButton{
+    background: rgb(0, 136, 255);
+    margin-top: 20px;
+    padding:0 20px;
+}
+
+.yellowButton {
+    background: rgb(245, 217, 56);
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.greenButton{
+    width: 80%;
+    background: rgb(8, 210, 106);
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+
+#content{
+    width: 70%;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contentLeft{
+    flex: 2;
+}
+
+#contentRight{
+    flex: 1;
+    margin-left: 30px;
+}
+
+.definition{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 20px;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.defLeft{
+    text-align: center;
+}
+
+.defRight{
+    margin: auto;
+}
+
+.addDef{
+    border: black solid 2px;
+    padding: 20px;
+    text-align: center;
+}
+
+.addDef h2{
+    text-align: left;
+}

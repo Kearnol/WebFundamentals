@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DK's Button Clicker</title>
+</head>
+
+<body>
+    <div id="mainNav">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder=" Search">
+        <button class="loginButton" onclick="logOut(this)">Login</button>
+    </div>
+    <div id="content">
+        <div id="contentLeft">
+            <div class="definition">
+                <div class="defLeft">
+                    <h1>ninja</h1>
+                    <p><em>noun</em></p>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button class="yellowButton" onclick="likeAlert(this)">13 likes</button>
+                </div>
+                <p class="defRight">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#"> ninjutsu</a></p>
+            </div>
+            <div class="definition">
+                <div class="defLeft">
+                    <h1>ninja</h1>
+                    <p><em>noun</em></p>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button class="yellowButton" onclick="likeAlert(this)">37 likes</button>
+                </div>
+                <p class="defRight">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#"> ninjutsu</a></p>
+            </div>
+        </div>
+        <div id="contentRight">
+            <div class="addDef">
+                <h2>Dictionary is defined by YOU</h2>
+                <button class="greenButton" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
