@@ -22,7 +22,6 @@ body {
 
 #contentRight{
     flex: 2; 
-    /* background-color: red; */
     margin-left:40px;
 }
 
@@ -37,14 +36,10 @@ body {
 }
 
 .displayBox{
-    width: auto;
-    /* height: 300px; */
     border: grey solid 2px; 
     margin-bottom: 30px;
     background: ghostwhite;
 }
-
-
 
 .connection-requests{
     padding-bottom:15px;

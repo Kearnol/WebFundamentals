@@ -7,7 +7,6 @@
     width: 60%;
     height: 60px;
     margin: auto;
-    background: transparent;
     color:#fff;
     border-radius: 5px;
     font-family: "Roboto", sans-serif;
@@ -31,9 +30,7 @@
     padding: 5px 15px;
     background-color: hsl(188.2, 77.8%, 40.6%);
     color:#fff;
-    border: black;
-    box-shadow: 3px 3px black;
-    border: black 2px solid;
+    border: none;
 }
 
 .nav ul{
@@ -58,11 +55,6 @@ ul.nav-links li a{
 
 ul.nav-links li a.active {
     opacity: 1;
-}
-
-.nav-links {
-    align-items: center;
-    width: auto;
 }
 
 #navleft{
