@@ -1,0 +1,80 @@
+body {
+    background: #333;
+}
+
+#nav-background{
+    background-color:#000;
+    margin-bottom: 30px;
+}
+
+.nav{
+    width: 60%;
+    height: 60px;
+    margin: auto;
+    background: transparent;
+    color:#fff;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile{
+    margin-right: 20px;
+    letter-spacing: .03em;
+}
+
+.nav h1.profile{
+    font-weight: 400;
+    display: inline-block;
+}
+
+#signout{
+    padding: 5px 15px;
+    background-color: hsl(188.2, 77.8%, 40.6%);
+    color:#fff;
+    border: black;
+    box-shadow: 3px 3px black;
+    border: black 2px solid;
+}
+
+.nav ul{
+    display:flex;
+    padding: 0;
+}
+
+.nav ul li{
+    list-style-type: none;
+    color:#fff;
+    margin: 10px;
+}
+
+ul.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+ul.nav-links li a{
+    opacity: .60;
+}
+
+ul.nav-links li a.active {
+    opacity: 1;
+}
+
+.nav-links {
+    align-items: center;
+}
+
+#navlinks{
+    width: auto;
+}
+
+#navleft{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

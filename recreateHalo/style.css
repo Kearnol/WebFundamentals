@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+}
+
+#banner{
+    background-image: url(images/banner.jpg);
+    height:450px;
+    background-size:cover; 
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#bannertext{
+    width: 75%;
+    margin: 0px auto;
+    color:#fff;
+}
+
+#bannertext h1, #bannertext h3 {
+}
+
+#bannertext h1{
+    font-size:50pt;
+}
+
+.button {
+    color: #fff;
+    background-color:#1572a4;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 20pt;
+}
+
+#space {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#banner
+
+#banner p{
+    font-size: 20pt;
+}
+
+body{
+    background-image: url(images/light_honeycomb.png);
+}
+
+#nav{
+    height: 50px;
+    background: rgba(0,0,0,.4);
+    color:#fff;
+}
+
+ul li{
+    list-style-type: none;
+    font-size:larger;
+}
+
+#innernav{
+    width: 75%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navleft {
+    width: 700px;
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navleft img{
+    width:150px;
+    padding-top: 8px;
+}
+
+#navright{
+    width: 200px;
+    height: 50px;
+    /* background-color: rgb(255, 17, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#navright p{
+    font-size: 17pt;
+}
+
+#magnify{
+    transform:scaleX(-1)
+}
+
+#articles{
+    width: 75%;
+    margin: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#card img{
+    width: 320px;
+}
+
+#card h2{
+    font-size: 25pt;
+    color:#1572a4;
+}
+
+#announcements{
+    width: 75%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#announcements img{
+    width: 50%
+}
+
+#footerContent{
+    width: 50%;
+    margin-left: 30px;
+    color:black;
+}
+
+#footerContent h1{
+    font-size: xx-large;
+    padding-top: 20px;
+    color:#1572a4;
+}
+
+#footerContent p{
+    color: black;
+}
+
+#readMore{
+    margin-top:15px;
+}
+
+#icons{
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fa {
+    padding: 5px;
+    padding-top:8px;
+    font-size: 30px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 3px;
+    border-radius: 50%
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
