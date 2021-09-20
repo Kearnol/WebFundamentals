@@ -35,13 +35,13 @@
                 <div class="cardbottom">
                     <img src="imgs/Devin-Profile-Pic.png" alt="a portrait picture of devin kearns" id="profilepic">
                     <div id="cardtext">
-                        <h1>Devin Kearns</h1>
+                        <h1 id="userName">Devin Kearns</h1>
                         <img src="imgs/map-marker.png" alt="map marker icon" class="icon map">
                         <p class="inline">Denver, CO</p>
                         <p>Developer | Engineer | Problem Solver</p>
                         <p>Sound-cloud Rapper & Soccer enthusiast</p>
                         <img src="imgs/gear.png" alt="gear icon" class="icon">
-                        <a href="#">edit profile</a>
+                        <a onclick="changeUserName()" href="#">edit profile</a>
                     </div>
                 </div>
             </div>
@@ -56,33 +56,33 @@
         <div id="contentRight">
             <div class="displayBox connection-requests">
                 <div class="displayBoxHeader">
-                    <p class="badge">2</p>
+                    <p id="conReqBadge" class="badge">2</p>
                     <h3>Connection Requests</h3>
                 </div>
-                <div class="connection">
+                <div id="connection1" class="connection">
                     <div class="flexCenter">
                         <img class="prof-img" src="imgs/todd-s.jpg" alt="user with no picture icon">
                         <p>Todd E</p>
                     </div>
                     <div class="flexCenter">
-                        <img class="prof-img" src="imgs/accept-circle.png" alt="accept icon">
-                        <img class="prof-img" src="imgs/close-circle.png" alt="close icon">
+                        <img id="acceptIcon" class="prof-img" src="imgs/accept-circle.png" alt="accept icon" onclick="removeConnection1(), addToConnections(), decreaseConnections()">
+                        <img id="declineIcon" class="prof-img" src="imgs/close-circle.png" alt="close icon" onclick="removeConnection1(), decreaseConnections()">
                     </div>
                 </div>
-                <div class="connection">
+                <div id="connection2" class="connection">
                     <div class="flexCenter">
                         <img class="prof-img" src="imgs/phil-s.jpg" alt="user with no picture icon">
                         <p>Phil K</p>
                     </div>
                     <div class="flexCenter">
-                        <img class="prof-img" src="imgs/accept-circle.png" alt="accept icon">
-                        <img class="prof-img" src="imgs/close-circle.png" alt="close icon">
+                        <img id="acceptIcon" class="prof-img" src="imgs/accept-circle.png" alt="accept icon" onclick="removeConnection2(), addToConnections() ,decreaseConnections()">
+                        <img id="declineIcon" class="prof-img" src="imgs/close-circle.png" alt="close icon" onclick="removeConnection2(), decreaseConnections()">
                     </div>
                 </div>
             </div>
             <div class="displayBox">
                 <div class="displayBoxHeader">
-                    <p class="badge">500+</p>
+                    <p id="yourConnectionsBadge" class="badge">500+</p>
                     <h3>Your Connections</h3>
                 </div>
                 <div class="connection">
@@ -112,6 +112,7 @@
                 <a class="view-more" href="#">View More</a>
             </div>
         </div>
+        <script src="script.js"></script>
 </body>
 
 </html>

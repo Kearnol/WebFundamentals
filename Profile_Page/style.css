@@ -102,6 +102,13 @@ h3.displayBoxHeader{
     padding-left: 15px;
 }
 
+#declineIcon{
+    background-color: rgb(244, 53, 32);
+}
+#acceptIcon{
+    background-color: rgb(64, 244, 64);
+}
+
 @media(max-width:800px){
     #content{
         width: 100%;
