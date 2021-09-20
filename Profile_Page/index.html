@@ -54,6 +54,7 @@
             
         </div>
         <div id="contentRight">
+            <!-- Connection Requests -->
             <div class="displayBox connection-requests">
                 <div class="displayBoxHeader">
                     <p id="conReqBadge" class="badge">2</p>
@@ -65,8 +66,8 @@
                         <p>Todd E</p>
                     </div>
                     <div class="flexCenter">
-                        <img id="acceptIcon" class="prof-img" src="imgs/accept-circle.png" alt="accept icon" onclick="removeConnection1(), addToConnections(), decreaseConnections()">
-                        <img id="declineIcon" class="prof-img" src="imgs/close-circle.png" alt="close icon" onclick="removeConnection1(), decreaseConnections()">
+                        <img id="acceptIcon" class="prof-img" src="imgs/accept-circle.png" alt="accept icon" onclick="removeConnection(this), addToConnections(), decreaseConnections()">
+                        <img id="declineIcon" class="prof-img" src="imgs/close-circle.png" alt="close icon" onclick="removeConnection(this), decreaseConnections()">
                     </div>
                 </div>
                 <div id="connection2" class="connection">
@@ -75,11 +76,13 @@
                         <p>Phil K</p>
                     </div>
                     <div class="flexCenter">
-                        <img id="acceptIcon" class="prof-img" src="imgs/accept-circle.png" alt="accept icon" onclick="removeConnection2(), addToConnections() ,decreaseConnections()">
-                        <img id="declineIcon" class="prof-img" src="imgs/close-circle.png" alt="close icon" onclick="removeConnection2(), decreaseConnections()">
+                        <img id="acceptIcon" class="prof-img" src="imgs/accept-circle.png" alt="accept icon" onclick="removeConnection(this), addToConnections() ,decreaseConnections()">
+                        <img id="declineIcon" class="prof-img" src="imgs/close-circle.png" alt="close icon" onclick="removeConnection(this), decreaseConnections()">
                     </div>
                 </div>
             </div>
+
+            <!-- Your Connections -->
             <div class="displayBox">
                 <div class="displayBoxHeader">
                     <p id="yourConnectionsBadge" class="badge">500+</p>

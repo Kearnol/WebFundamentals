@@ -3,11 +3,8 @@ function changeUserName(){
 document.querySelector("#userName").innerHTML = "The Kearnol"
 }
 
-function removeConnection1(){
-    document.querySelector("#connection1").remove();
-}
-function removeConnection2(){
-    document.querySelector("#connection2").remove();
+function removeConnection(element){
+    element.parentNode.parentNode.remove();
 }
 
 var yourConnections = 500
