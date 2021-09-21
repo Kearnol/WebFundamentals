@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojo Weather</title>
+</head>
+
+<body>
+    <div id="topBanner">
+        <div id="innerTop">
+            <h1 id="logo">DojoWeather</h1>
+            <ul id="cities">
+                <li onclick="loadingAlert()">
+                    <h3>Burbank</h3>
+                </li>
+                <li onclick="loadingAlert()">
+                    <h3>Chicago</h3>
+                </li>
+                <li onclick="loadingAlert()">
+                    <h3>Dallas</h3>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="cityBanner">
+        <h1 id="city">San Jose</h1>
+        <div id="tempBox">
+            <p>Show temperature in:</p>
+            <select name="tempSelect" id="tempSelect">
+                <option value="celcius" id="celcius" onclick="changeTempType(this)">C°</option>
+                <option value="fahrenheit" id="fahrenheit" onclick="changeTempType(this)">F°</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- weather blocks -->
+    <div id="days">
+        <div class="weatherBlock">
+            <h2>Today</h2>
+            <img src="assets/some_rain.png" alt="chance of rain icon">
+            <p>some rain</p>
+            <div class="tempBlock">
+                <h3 class="hot"><span class="tempHigh">24</span>°</h3>
+                <h3 class="cold"><span class="tempLow">18</span>°</h3>
+            </div>
+        </div>
+        <div class="weatherBlock">
+            <h2>Tomorrow</h2>
+            <img src="assets/some_sun.png" alt="sunny icon">
+            <p>some sun</p>
+            <div class="tempBlock">
+                <h3 class="hot"><span class="tempHigh">27</span>°</h3>
+                <h3 class="cold"><span class="tempLow">19</span>°</h3>
+            </div>
+        </div>
+        <div class="weatherBlock">
+            <h2>Friday</h2>
+            <img src="assets/some_clouds.png" alt="cloudy icon">
+            <p>some clouds</p>
+            <div class="tempBlock">
+                <h3 class="hot"><span class="tempHigh">21</span>°</h3>
+                <h3 class="cold"><span class="tempLow">16</span>°</h3>
+            </div>
+        </div>
+        <div class="weatherBlock">
+            <h2>Sunday</h2>
+            <img src="assets/some_sun.png" alt="sunny icon">
+            <p>some sun</p>
+            <div class="tempBlock">
+                <h3 class="hot"><span class="tempHigh">26</span>°</h3>
+                <h3 class="cold"><span class="tempLow">21</span>°</h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="cookies">
+        <img src="assets/cookie.png" alt="a cookie icon">
+        <div id="cookiesText">
+            <h3>Stop! Cookie time</h3>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media
+                features
+                and to analyse our traffic. <a href="#">Read more...</a></p>
+        </div>
+        <button onclick="hide(this)">I Accept</button>
+    </div>
+    <div id="scrolltest"></div>
+    <script src="script.js"></script>
+</body>
+</html>
