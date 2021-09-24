@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  display: flex;
+  border-bottom: 2px black solid;
+}
+
+#mapBank {
+  width: 200px;
+  background-color: rgb(195, 170, 230);
+  border-right: 2px solid black;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+#search {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#search input {
+  height: 20px;
+  width: 250px;
+  padding-left: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+#search img {
+  width: 20px;
+  position: relative;
+  bottom: 22px;
+  left: 110px;
+}
+
+#searchBtn {
+  width: 60px;
+  background: gold;
+  border: 2px solid black;
+  box-shadow: 3px 3px black;
+  display: flex;
+  justify-content: center;
+}
+
+#mapBank p {
+  margin: 2px 0;
+}
+
+#mapInfo img {
+  width: 900px;
+  margin-top: 20px;
+}
+
+#contentRight {
+  text-align: center;
+  width: 100%;
+  background-color: rgb(235, 234, 234);
+  padding-top: 5px;
+}
+
+#mapInfo img {
+  border-radius: 5px;
+}
+
+.errorP {
+  color: red;
+  font-style: italic;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.errorP em {
+  text-decoration: underline;
+}
+
+.errorP strong {
+  color: black;
+}
+
+.inline {
+  display: inline-block;
+  width: fit-content;
+}

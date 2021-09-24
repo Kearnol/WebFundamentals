@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>H5 Map Search</title>
+  </head>
+
+  <body>
+    <div id="content">
+      <div id="mapBank">
+        <h2>Map Bank</h2>
+        <p onclick="pushName(this)">Urban</p>
+        <p onclick="pushName(this)">Raid on Apex 7</p>
+        <p onclick="pushName(this)">March on Stormbreak</p>
+        <p onclick="pushName(this)">Ascape from A.R.C.</p>
+        <p onclick="pushName(this)">Osiris</p>
+        <p onclick="pushName(this)">Blue Team</p>
+        <p onclick="pushName(this)">Glassed</p>
+        <p onclick="pushName(this)">Unconfirmed</p>
+        <p onclick="pushName(this)">Alliance</p>
+        <p onclick="pushName(this)">Before the Storm</p>
+        <p onclick="pushName(this)">Genesis</p>
+        <p onclick="pushName(this)">The Breaking</p>
+        <p onclick="pushName(this)">Meridian Station</p>
+        <p onclick="pushName(this)">Evacuation</p>
+        <p onclick="pushName(this)">Reunion</p>
+        <p onclick="pushName(this)">Sword of Sanghelios</p>
+        <p onclick="pushName(this)">Enemy Lines</p>
+        <p onclick="pushName(this)">Battle of Sunaion</p>
+        <p onclick="pushName(this)">Summit</p>
+        <p onclick="pushName(this)">Array</p>
+        <p onclick="pushName(this)">Dispatch</p>
+        <p onclick="pushName(this)">Alpine</p>
+        <p onclick="pushName(this)">Breakout Arena</p>
+        <p onclick="pushName(this)">Coliseum</p>
+        <p onclick="pushName(this)">Eden</p>
+        <p onclick="pushName(this)">Empire</p>
+        <p onclick="pushName(this)">Fathom</p>
+        <p onclick="pushName(this)">Plaza</p>
+        <p onclick="pushName(this)">Regret</p>
+        <p onclick="pushName(this)">The Rig</p>
+        <p onclick="pushName(this)">Truth</p>
+        <p onclick="pushName(this)">Glacier</p>
+        <p onclick="pushName(this)">Parallax</p>
+        <p onclick="pushName(this)">Battle of Noctus</p>
+        <p onclick="pushName(this)">Overgrowth</p>
+        <p onclick="pushName(this)">Riptide</p>
+        <p onclick="pushName(this)">Torque</p>
+        <p onclick="pushName(this)">Skirmish at Darkstar</p>
+        <p onclick="pushName(this)">Tyrant</p>
+        <p onclick="pushName(this)">Stasis</p>
+        <p onclick="pushName(this)">Attack on Sanctum</p>
+        <p onclick="pushName(this)">Prospect</p>
+        <p onclick="pushName(this)">Slag</p>
+        <p onclick="pushName(this)">Temple</p>
+        <p onclick="pushName(this)">Mercy</p>
+        <p onclick="pushName(this)">Barrens</p>
+      </div>
+      <div id="contentRight">
+        <h1>Look up a map in Halo 5</h1>
+        <div id="search">
+          <input
+            type="text"
+            id="mapRequest"
+            placeholder="Search for a map"
+            value=""
+          />
+          <img src="assets/search-dark.png" alt="search lens icon" />
+          <button id="searchBtn" onclick="getInfo()">Search</button>
+        </div>
+
+        <div id="mapInfo"></div>
+        <script src="script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
